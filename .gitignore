@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pyd
+env/
+venv/
+ENV/
+.env
+.venv
+build/
+dist/
+*.egg-info/
+.vscode/
+output/
+output/*
+*.log
+*.sqlite3

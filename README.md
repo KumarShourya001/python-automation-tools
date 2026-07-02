@@ -36,3 +36,23 @@ This repository contains a collection of small Python automation and utility scr
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/python-automation-tools.git
+
+## Dependencies
+
+- Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+- After installing `nltk`, download required NLTK data (examples below):
+
+```bash
+python -m nltk.downloader punkt stopwords wordnet averaged_perceptron_tagger
+```
+
+These packages enable better sentence tokenization, stopword removal, and lemmatization which improve text cleaning, summarization, and TTS quality.
+
+---
+
+Updated to include `nltk` and PDF/OCR helper packages. For OCR use, install Tesseract separately and ensure it's on your PATH.

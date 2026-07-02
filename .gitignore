@@ -14,3 +14,4 @@ output/
 output/*
 *.log
 *.sqlite3
+*.pdf
